@@ -34,7 +34,8 @@ public:
     Gtk::Button *b_delete = Gtk::manage(new Gtk::Button("blabla"));
     Glib::RefPtr<Gtk::Adjustment> m_adjustment;
     Gtk::Label *time = Gtk::manage(new Gtk::Label("00:00"));
-    void set_all_insensitive(int c1[2], int c2[2]);
+    void set_all_insensitive_and_turnback(int c1[2], int c2[2]);
+    void set_all_insensitive();
     void set_notfinishedbuttons_sensitive();
     void set_button_finished(int c1[2], int c2[2]);
     void new_game();

@@ -38,7 +38,7 @@ void Buttons::on_button_clicked()
 				matrix->button_clicked_nb=0;
 			}
 			else{
-				mw->set_all_insensitive(matrix->clicked_bt1, matrix->clicked_bt2);
+				mw->set_all_insensitive_and_turnback(matrix->clicked_bt1, matrix->clicked_bt2);
 			}
 		}
 	}

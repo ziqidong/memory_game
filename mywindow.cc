@@ -180,12 +180,16 @@ void MyWindow::on_menu_file_new_generic()
 
 void MyWindow::restart()
 {
-  tt.pause = false;
+	if(m_TimerThread!=nullptr){
+		  tt.pause = false;
+   		  set_notfinishedbuttons_sensitive();
+	}
 }
 
 void MyWindow::pause()
 {
   tt.pause = true;
+  set_all_insensitive();
 }
 
 void MyWindow::on_delete_clicked()
@@ -201,7 +205,7 @@ void MyWindow::on_help_clicked()
     dlg.run();
 }
 
-void MyWindow::set_all_insensitive(int c1[2], int c2[2]){
+void MyWindow::set_all_insensitive_and_turnback(int c1[2], int c2[2]){
   for(int i=0 ; i<16 ; i++){
     // if(i==c1[0]*8 + c1[1] || i==c2[0]*8 + c2[1])continue;
     buttons[i]->button.set_sensitive(false);
@@ -220,6 +224,12 @@ void MyWindow::set_all_insensitive(int c1[2], int c2[2]){
       {
         wt.do_work(this);
       });
+  }
+}
+
+void MyWindow::set_all_insensitive(){
+	for(int i=0 ; i<16 ; i++){
+    buttons[i]->button.set_sensitive(false);
   }
 }
 
