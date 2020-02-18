@@ -12,18 +12,18 @@ execute:
 the preview of programme:
 
 click "new game" to start, you can pause and continue.
-![image](https://github.com/ziqidong/memory_game/raw/master/images/1.png)
+![image](https://github.com/ziqidong/memory_game/raw/master/images/1.jpg)
 
 there has a timer to record the time you spend.
-![image](https://github.com/ziqidong/memory_game/raw/master/images/2.png)
+![image](https://github.com/ziqidong/memory_game/raw/master/images/2.jpg)
 
 if you pick two cards which have same color, they won't turn back.
-![image](https://github.com/ziqidong/memory_game/raw/master/images/3.png)
+![image](https://github.com/ziqidong/memory_game/raw/master/images/3.jpg)
 
 else, they will turn back after several seconds.
-![image](https://github.com/ziqidong/memory_game/raw/master/images/4.png)
+![image](https://github.com/ziqidong/memory_game/raw/master/images/4.jpg)
 
 once all cards are turned over，a popup window will be display and show your record.
-flipped![image](https://github.com/ziqidong/memory_game/raw/master/images/5.png)
+![image](https://github.com/ziqidong/memory_game/raw/master/images/5.jpg)
 
 of course you can add more function such as storing it in DB.
