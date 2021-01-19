@@ -12,10 +12,10 @@ execute:
 the preview of programme:
 
 click "new game" to start, you can pause and continue.
-![image](https://github.com/ziqidong/memory_game/raw/master/images/1.jpg)
+![image](https://github.com/ziqidong/memory_game/blob/master/images/1.jpg)
 
 there has a timer to record the time you spend.
-![image](https://github.com/ziqidong/memory_game/raw/master/images/2.jpg)
+![image](./images/2.jpg)
 
 if you pick two cards which have same color, they won't turn back.
 ![image](https://github.com/ziqidong/memory_game/raw/master/images/3.jpg)
